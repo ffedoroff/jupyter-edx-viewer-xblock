@@ -18,7 +18,7 @@ Check it out!
 ### XBlock
 * login as the root user: `sudo -i`
 * New Installation:
-    * `/edx/bin/pip.edxapp install git+https://github.com/ibleducation/jupyter-viewer-xblock.git`
+    * `/edx/bin/pip.edxapp install git+https://github.com/ffedoroff/jupyter-viewer-xblock.git`
 * Re-Installation:
     * `/edx/bin/pip.edxapp install --upgrade --no-deps --force-reinstall git+https://github.com/ibleducation/jupyter-viewer-xblock.git`
 * Restart the `edxapp` via `/edx/bin/supervisorctl restart edxapp:`
